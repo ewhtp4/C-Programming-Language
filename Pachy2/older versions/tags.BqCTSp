@@ -1,0 +1,60 @@
+NUMBER_CHECKS	pachy.v.1.1.c	41;"	d	file:
+MAX_STRING_SIZE	pachy.v.1.1.c	42;"	d	file:
+MAX_MATCHES	pachy.v.1.1.c	43;"	d	file:
+match	pachy.v.1.1.c	/^void match(regex_t *pexp, char *sz, int i);$/;"	p	file:
+vcommand	pachy.v.1.1.c	/^const char *vcommand[NUMBER_CHECKS] = { "apache2 -version | awk '{print $3}'",$/;"	v
+pmessage	pachy.v.1.1.c	/^const char *pmessage[NUMBER_CHECKS] = { "Apache2 Installed",$/;"	v
+nmessage	pachy.v.1.1.c	/^const char *nmessage[NUMBER_CHECKS] = { "Apache2 Missing",$/;"	v
+testtext	pachy.v.1.1.c	/^const char *testtext[NUMBER_CHECKS] = { "Apache\/[2-9].[0-9].[0-9][0-9]",$/;"	v
+versiont	pachy.v.1.1.c	/^const char *versiont[NUMBER_CHECKS] = { "apache2 -version |sed -n 1p | awk '{print $3}'| cut -d '\/' -f2",$/;"	v
+name	pachy.v.1.1.c	/^    char *name;$/;"	m	struct:__anon1	file:
+install	pachy.v.1.1.c	/^    char *install;$/;"	m	struct:__anon1	file:
+present	pachy.v.1.1.c	/^    bool present;$/;"	m	struct:__anon1	file:
+upgradable	pachy.v.1.1.c	/^    bool upgradable;$/;"	m	struct:__anon1	file:
+elemant	pachy.v.1.1.c	/^elemant;$/;"	t	typeref:struct:__anon1	file:
+main	pachy.v.1.1.c	/^int main(int argc, char **argv) {$/;"	f
+match	pachy.v.1.1.c	/^void match(regex_t *pexp, char *sz, int i) {    $/;"	f
+NUMBER_CHECKS	pachy.v.1.2.c	42;"	d	file:
+MAX_STRING_SIZE	pachy.v.1.2.c	43;"	d	file:
+MAX_MATCHES	pachy.v.1.2.c	44;"	d	file:
+match	pachy.v.1.2.c	/^void match(regex_t *pexp, char *sz, int i);$/;"	p	file:
+apache2	pachy.v.1.2.c	/^int apache2();$/;"	p	file:
+apachinstall	pachy.v.1.2.c	/^void apachinstall(regex_t *pexp, char *sz, int i);$/;"	p	file:
+vcommand	pachy.v.1.2.c	/^const char *vcommand[NUMBER_CHECKS] = { "apache2 -version | awk '{print $3}'",$/;"	v
+pmessage	pachy.v.1.2.c	/^const char *pmessage[NUMBER_CHECKS] = { "Apache2 Installed",$/;"	v
+nmessage	pachy.v.1.2.c	/^const char *nmessage[NUMBER_CHECKS] = { "Apache2 Missing",$/;"	v
+testtext	pachy.v.1.2.c	/^const char *testtext[NUMBER_CHECKS] = { "Apache\/[2-9].[0-9].[0-9][0-9]",$/;"	v
+versiont	pachy.v.1.2.c	/^const char *versiont[NUMBER_CHECKS] = { "apache2 -version |sed -n 1p | awk '{print $3}'| cut -d '\/' -f2",$/;"	v
+oslinux	pachy.v.1.2.c	/^const char *oslinux[7] = {"SUSE", "openSuse","Debian", "CentOS", "Linux", "Red", "1Ubuntu"};                                       $/;"	v
+installs	pachy.v.1.2.c	/^const char *installs[7] = {"sudo zypper update ; sudo zypper install apache2 ; sudo systemctl start apache2 ; sudo systemctl enable apache2 ; systemctl status apache2",$/;"	v
+name	pachy.v.1.2.c	/^    char *name;$/;"	m	struct:__anon2	file:
+install	pachy.v.1.2.c	/^    char *install;$/;"	m	struct:__anon2	file:
+configure	pachy.v.1.2.c	/^    char *configure;$/;"	m	struct:__anon2	file:
+present	pachy.v.1.2.c	/^    bool present;$/;"	m	struct:__anon2	file:
+upgradable	pachy.v.1.2.c	/^    bool upgradable;$/;"	m	struct:__anon2	file:
+elemant	pachy.v.1.2.c	/^elemant;$/;"	t	typeref:struct:__anon2	file:
+elemants	pachy.v.1.2.c	/^elemant elemants[5] = {{"apache2", "sudo apt-get install apache2", "", false, false},$/;"	v
+found	pachy.v.1.2.c	/^int found = 0;$/;"	v
+main	pachy.v.1.2.c	/^int main(int argc, char **argv) {$/;"	f
+match	pachy.v.1.2.c	/^void match(regex_t *pexp, char *sz, int i) {  $/;"	f
+apache2	pachy.v.1.2.c	/^int apache2() {$/;"	f
+apachinstall	pachy.v.1.2.c	/^void apachinstall(regex_t *pexp, char *sz, int i) {  $/;"	f
+NUMBER_CHECKS	pachy.v.1.0.c	41;"	d	file:
+MAX_STRING_SIZE	pachy.v.1.0.c	42;"	d	file:
+vcommand	pachy.v.1.0.c	/^const char *vcommand[NUMBER_CHECKS] = { "apache2 -version | awk '{print $3}'",$/;"	v
+pmessage	pachy.v.1.0.c	/^const char *pmessage[NUMBER_CHECKS] = { "Apache2 Installed\\n",$/;"	v
+nmessage	pachy.v.1.0.c	/^const char *nmessage[NUMBER_CHECKS] = { "Apache2 Missing\\n",$/;"	v
+testtext	pachy.v.1.0.c	/^const char *testtext[NUMBER_CHECKS] = { "Server version: Apache\/2.4.29 (Ubuntu)\\n",$/;"	v
+main	pachy.v.1.0.c	/^int main(int argc, char **argv)$/;"	f
+main	pachy.c	/^int main(int argc, char **argv)$/;"	f
+fist	apache2v2.c	/^    char *fist;$/;"	m	struct:__anon3	file:
+second	apache2v2.c	/^    char *second;$/;"	m	struct:__anon3	file:
+third	apache2v2.c	/^    char *third;$/;"	m	struct:__anon3	file:
+fourth	apache2v2.c	/^    char *fourth;$/;"	m	struct:__anon3	file:
+fifth	apache2v2.c	/^    char *fifth;$/;"	m	struct:__anon3	file:
+install_instructio	apache2v2.c	/^} install_instructio;    $/;"	t	typeref:struct:__anon3	file:
+oslinux	apache2v2.c	/^char *oslinux[7] = {"SUSE", "openSuse","Debian", "CentOS", "Linux", "Red", "Ubuntu"};$/;"	v
+installs	apache2v2.c	/^char *installs[7] = {".\/apachesh\/apache2SUSE.sh",$/;"	v
+apachinstall	apache2v2.c	/^void apachinstall(regex_t *pexp, char *sz, int i);$/;"	p	file:
+apache2v2	apache2v2.c	/^int apache2v2() {$/;"	f
+apachinstall	apache2v2.c	/^void apachinstall(regex_t *pexp, char *sz, int i) {  $/;"	f

@@ -1,0 +1,19 @@
+sudo apt install xterm
+
+
+yum search ncursesyum install ncurses-devel
+
+sudo apt-get update
+sudo apt-get install ncurses-dev
+
+sudo apt-get install libncurses5-dev
+
+
+
+
+██████╗  █████╗  ██████╗██╗  ██╗██╗   ██╗
+██╔══██╗██╔══██╗██╔════╝██║  ██║╚██╗ ██╔╝
+██████╔╝███████║██║     ███████║ ╚████╔╝ 
+██╔═══╝ ██╔══██║██║     ██╔══██║  ╚██╔╝  
+██║     ██║  ██║╚██████╗██║  ██║   ██║   
+╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   
